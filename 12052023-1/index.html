@@ -1,0 +1,113 @@
+<!--
+1 - Crie uma página com a estrutura básica completa.
+2 - Utilize as tags semânticas Header, Main e Footer
+3-  Coloque seu nome como título da aba do navegador.
+4 - Coloque o seu nome como o título principal na sua header.  
+5-  Adicione uma logo ou uma foto dentro da sua header
+6 - Na sua Main crie um parágrafo nos contando sobre você, idade, onde mora e o que mais você quiser escrever sobre.
+7 - Na sua Main Insira um link com a história do seu bairro.
+8 - Crie um subtítulo "Suas Características".
+9 - Crie uma lista não ordenada com as respostas.
+10 - Crie um subtítulo "Suas Habilidades".
+11 - Crie uma lista ordenada com as respostas.
+12 - Crie um subtítulo "Comidas preferidas:"
+13 - Crie uma lista ordenada com as respostas.
+14 - Adicione um <form> no seu <footer></footer>
+15 - Adicione dentro do <form> uma <label>Nome:</label>
+16 - Adicione um input com type="text"
+17 - Adicione uma <label>Email:</label>
+18 - Adicione um input com type="email"
+19 - Adicione uma <label>Idade</label>
+20 - Adicione um input com type="number"
+21 - Ao final do seu <form></form> adicione um input type="submit"
+22- Adicione uma <nav></nav> dentro do footer linkando suas redes sociais-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo Garcia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Hugo Garcia</h1>
+        <figure>
+            <img src="https://avatars.githubusercontent.com/u/69007691?v=4" alt="Foto de Hugo Garcia" width="10%">
+            <figcaption>Perfil</figcaption>
+        </figure>
+    </header>
+
+    <main>
+        <h2>Sobre mim</h2>
+        <p>Meu nome é Hugo Garcia, tenho 27 anos, moro em  <a href="https://pt.wikipedia.org/wiki/Cataguases" target="_blank">
+            Cataguases-MG</a>. Atualmente sou graduando em 2 graduações
+            diferentes, Ciência da Computação e Engenharia de Controle e automação no CEFET-MG onde atualmente sou
+            monitor da disciplina de programação II para os alunos dos cursos de Engenharia da computação e Controle e
+            automação.
+            Sou membro do CREAMG-JR, uma organização estudantil vinculada ao Conselho Regional de Engenharia e
+            Agronomia (CREA).
+            É formada por estudantes de cursos de engenharia, agronomia e áreas afins que têm como objetivo promover o
+            desenvolvimento acadêmico, profissional e social dos estudantes. Participar do CREA Júnior permite aos
+            estudantes adquirirem experiência prática, desenvolverem habilidades profissionais, estabelecerem
+            contatos com profissionais da área e contribuírem para o desenvolvimento de projetos de impacto
+            social e comunitário.
+        </p>
+        <h3>Minhas Características</h3>
+        <ul>
+            <li>Proativo</li>
+            <li>Persistente</li>
+            <li>Responsável</li>
+            <li>Organizado</li>
+            <li>Trabalho em equipe</li>
+        </ul>
+        <h4>Minhas habilidades</h4>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>C</li>
+        </ol>
+        <h5>Comidas preferidas</h5>
+        <ol>
+            <li>Lasanha</li>
+            <li>Feijoada</li>
+            <li>Strogonoff</li>
+            <li>Macarrão</li>
+            <li>Churrasco</li>
+        </ol>
+    </main>
+
+    <footer>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="Digite sua idade">
+            <input type="submit" value="Enviar">
+        </form>
+        <nav>
+            <a href="https://www.linkedin.com/in/hugogarcia360/" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Linkedin">
+            </a>
+
+            <a href="https://www.instagram.com/hugorsgarcia/" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" target="blank"alt="Instagram">
+            </a>
+
+            <a href="https://github.com/hugogacia360" target="blank">
+                <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

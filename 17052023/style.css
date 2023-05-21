@@ -1,0 +1,35 @@
+header{
+    border: dashed red;
+}
+
+nav{
+    border: solid green;
+    width:280px;
+}
+
+ul{
+    border: solid gray;
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color : black;
+}
+
+.SobreMim{
+    color: violet;
+}
+
+header p {
+    color: red;
+}
+
+main p {
+    color: blue;
+    text-align: center;
+}
