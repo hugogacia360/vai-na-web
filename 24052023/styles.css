@@ -1,0 +1,12 @@
+main{
+    background-color: black;
+}
+
+figure{
+    border: solid 1px white;
+}
+
+img{
+    display: block;
+    width: 100px;
+}
