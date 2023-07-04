@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display:flex;
+    border: solid 10px seagreen;
+    height: 100vh;
+    flex-direction: column;
+}
+
+div{
+    width: 25vw;
+    height: 30vh;
+}

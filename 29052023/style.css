@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.primeiraSessao {
+    display: inline-block;
+    background-color: tomato;
+    height: 350px;
+    width: 360px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.segundaSessao {
+    display: inline-block;
+    background-color: green;
+    height: 350px;
+    width: 360px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+/* Path: 29052023\style.css */
